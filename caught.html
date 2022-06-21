@@ -1,0 +1,1306 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+
+
+
+
+
+
+
+
+<html>
+	<head>
+		
+		<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<META name="GENERATOR" content="IBM Software Development Platform">
+		<META http-equiv="Content-Style-Type" content="text/css">
+		
+			
+		<link rel="stylesheet" href="cjistemp/styles/style.css?v=6.1.3.7"  type="text/css">
+		<link rel="stylesheet" href="cjistemp/styles/jquery/jquery.treeview.css"  type="text/css">
+		<link rel="stylesheet"	href="cjistemp/scripts/ui-lightness/jquery-ui-1.8.13.custom.css" type="text/css">
+        
+        <script type="text/javascript" src="cjistemp/scripts/cjis.js?v=06152022"></script>
+		<script type="text/javascript" src="cjistemp/scripts/jquery/jquery.js?v=06152022"></script>
+		<script type="text/javascript" src="cjistemp/scripts/jquery/jquery.treeview.js?v=06152022"></script>
+		<script type="text/javascript" src="cjistemp/scripts/jquery/jquery-ui-1.8.13.custom.min.js?v=06152022"></script>
+			
+		<title>
+			GENERAL DISTRICT COURT ONLINE CASE INFORMATION SYSTEM
+		</title>
+		
+		 <script type="text/javascript">
+		
+		 var childWindow = null;
+		
+		 $(window).unload(function() {
+			 if (childWindow) 
+                 childWindow.close();
+         });
+
+		  $(document).ready(function(){		 	
+			 $('#newWindow').click(function (event){
+				 if($(this).hasClass("popupLink")){
+					 var w=500;
+					 var h=300;
+					 var left = (screen.width/2)-(w/2);
+					 var top = (screen.height/2)-(h/2);			
+					 try{
+					 	var xAxisValue = window.screenX|| window.screenLeft || 0 ;
+					 	var yAxisValue = window.screenY || window.screenTop || 0;
+					 	left = xAxisValue + $(window).width()/2 - w/2;
+					 	top = yAxisValue + $(window).height()/2 - h/2;			 		
+					 }
+					 catch(e){
+						left = (screen.width/2)-(w/2);
+						top = (screen.height/2)-(h/2);
+					 }
+					 var url = $(this).attr("href");                 
+					 var windowName = "Login";//$(this).attr("name");
+					 childWindow = window.open(url, windowName, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);			
+					 childWindow.focus();
+					 event.preventDefault();
+				 }
+			 });   
+		 });         
+		
+		 </script> 
+		 
+		 
+	<script>NS_CSM_td=3146157663;NS_CSM_pd=275116665;NS_CSM_u="/clm10";NS_CSM_col="af_collector_172.18.2.200";</script><script type="text/javascript">function sendTimingInfoInit(){setTimeout(sendTimingInfo,0)}function sendTimingInfo(){var wp=window.performance;if(wp){var c1,c2,t;c1=wp.timing;if(c1){var cm={};cm.ns=c1.navigationStart;if((t=c1.unloadEventStart)>0)cm.us=t;if((t=c1.unloadEventEnd)>0)cm.ue=t;if((t=c1.redirectStart)>0)cm.rs=t;if((t=c1.redirectEnd)>0)cm.re=t;cm.fs=c1.fetchStart;cm.dls=c1.domainLookupStart;cm.dle=c1.domainLookupEnd;cm.cs=c1.connectStart;cm.ce=c1.connectEnd;if((t=c1.secureConnectionStart)>0)cm.scs=t;cm.rqs=c1.requestStart;cm.rss=c1.responseStart;cm.rse=c1.responseEnd;cm.dl=c1.domLoading;cm.di=c1.domInteractive;cm.dcls=c1.domContentLoadedEventStart;cm.dcle=c1.domContentLoadedEventEnd;cm.dc=c1.domComplete;if((t=c1.loadEventStart)>0)cm.ls=t;if((t=c1.loadEventEnd)>0)cm.le=t;cm.tid=NS_CSM_td;cm.pid=NS_CSM_pd;cm.ac=NS_CSM_col;var xhttp=new XMLHttpRequest();if(xhttp){var JSON=JSON||{};JSON.stringify=JSON.stringify||function(ob){var t=typeof(ob);if(t!="object"||ob===null){if(t=="string")ob='"'+ob+'"';return String(ob);}else{var n,v,json=[],arr=(ob&&ob.constructor==Array);for(n in ob){v=ob[n];t=typeof(v);if(t=="string")v='"'+v+'"';else if(t=="object"&&v!==null)v=JSON.stringify(v);json.push((arr?"":'"'+n+'":')+String(v));}return(arr?"[":"{")+String(json)+(arr?"]":"}");}};xhttp.open("POST",NS_CSM_u,true);xhttp.send(JSON.stringify(cm));}}}}if(window.addEventListener)window.addEventListener("load",sendTimingInfoInit,false);else if(window.attachEvent)window.attachEvent("onload",sendTimingInfoInit);else window.onload=sendTimingInfoInit;</script></head>
+
+	<body onload="document.forms[0].searchTerm.focus()">
+	
+	
+	<table align="center" width="100%" style="border:0px" cellpadding="0" cellspacing="0">
+	<tr>
+	<td>
+	<table align="center" width="100%" style="border:0px" cellpadding="0" cellspacing="0">
+						<tr>
+			      			<td colspan="2" align="center" valign="bottom" class="headerback" nowrap="nowrap">
+			        			
+
+
+<script language="Javascript" type="text/javascript">
+	function hideHeader() {
+		document.getElementById("headerDiv").style.display = "none";
+	}
+	
+	var searchCounter=2025
+</script>
+
+<!-- <div class="headerback"></div>  -->
+<div class="headerimage"></div>
+
+			      			</td>
+			    		</tr>
+			    		<tr>
+			    		    <td align="left" valign="top" nowrap="nowrap" class="navigationback" width="217px">
+			    		        
+
+
+
+
+<div class="contentwrapper">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+	  <tr>
+	    <td class="navigation" valign="top">
+	    	<div class="navigationtop"></div>
+	    	<div class="navigationback">
+	    		<div class="menu">
+	    		<div align="center">
+		    		<table cellpadding="0" cellspacing="0">
+						    <tr>
+							    <td style="text-align: -moz-center;" >
+							    	  
+							    	       <input type="hidden" name="courtName" value="Accomack General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Albemarle General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Alexandria General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Alleghany General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Amelia General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Amherst General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Appomattox General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Arlington General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Augusta General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Bath General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Bedford General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Bland General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Botetourt General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Bristol General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Brunswick General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Buchanan General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Buckingham General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Buena Vista General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Campbell General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Caroline General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Carroll General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Charles City General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Charlotte General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Charlottesville General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Chesapeake General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Chesterfield General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Clarke General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Colonial Heights General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Craig General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Culpeper General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Cumberland General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Danville General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Dickenson General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Dinwiddie General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Emporia General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Essex General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Fairfax City General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Fairfax County General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Falls Church General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Fauquier General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Floyd General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Fluvanna General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Franklin City General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Franklin County General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Frederick General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Fredericksburg General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Galax General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Giles General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Gloucester General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Goochland General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Grayson General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Greene General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Greensville General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Halifax General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Hampton General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Hanover General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Harrisonburg/Rockingham General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Henrico General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Henry General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Highland General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Hopewell General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Isle of Wight General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="King George General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="King William General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="King and Queen General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Lancaster General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Lee General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Lexington/Rockbridge General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Loudoun General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Louisa General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Lunenburg General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Lynchburg General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Madison General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Martinsville General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Mathews General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Mecklenburg General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Middlesex General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Montgomery/Blacksburg General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Montgomery/Christiansburg General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Nelson General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="New Kent General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Newport News-Civil General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Newport News-Criminal General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Newport News-Traffic General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Norfolk General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Norfolk General District-Criminal Division" />
+								      
+							    	       <input type="hidden" name="courtName" value="Norfolk General District-Traffic Division" />
+								      
+							    	       <input type="hidden" name="courtName" value="Norfolk General District-Civil Division" />
+								      
+							    	       <input type="hidden" name="courtName" value="Northampton General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Northumberland General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Nottoway General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Orange General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Page General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Patrick General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Petersburg General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Pittsylvania General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Portsmouth General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Powhatan General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Prince Edward General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Prince George General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Prince William General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Pulaski General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Radford General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Rappahannock General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Richmond County General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Richmond City General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Richmond-Civil General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Richmond-Marsh Criminal/Traffic General District Court at Manchester" />
+								      
+							    	       <input type="hidden" name="courtName" value="Richmond-John Marshall Criminal/Traffic General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Richmond Manchester General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Roanoke City General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Roanoke County General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Russell General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Salem General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Scott General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Shenandoah General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Smyth General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Southampton General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Spotsylvania General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Stafford General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Staunton General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Suffolk General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Surry General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Sussex General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Tazewell General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Virginia Beach General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Warren General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Washington General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Waynesboro General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Westmoreland General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Williamsburg/James City County General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Winchester General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Wise/Norton General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="Wythe General District Court" />
+								      
+							    	       <input type="hidden" name="courtName" value="York General District Court" />
+								      
+							    	  
+							    	       <input type="hidden" name="courtFips" value="001" />
+								      
+							    	       <input type="hidden" name="courtFips" value="003" />
+								      
+							    	       <input type="hidden" name="courtFips" value="510" />
+								      
+							    	       <input type="hidden" name="courtFips" value="005" />
+								      
+							    	       <input type="hidden" name="courtFips" value="007" />
+								      
+							    	       <input type="hidden" name="courtFips" value="009" />
+								      
+							    	       <input type="hidden" name="courtFips" value="011" />
+								      
+							    	       <input type="hidden" name="courtFips" value="013" />
+								      
+							    	       <input type="hidden" name="courtFips" value="015" />
+								      
+							    	       <input type="hidden" name="courtFips" value="017" />
+								      
+							    	       <input type="hidden" name="courtFips" value="019" />
+								      
+							    	       <input type="hidden" name="courtFips" value="021" />
+								      
+							    	       <input type="hidden" name="courtFips" value="023" />
+								      
+							    	       <input type="hidden" name="courtFips" value="520" />
+								      
+							    	       <input type="hidden" name="courtFips" value="025" />
+								      
+							    	       <input type="hidden" name="courtFips" value="027" />
+								      
+							    	       <input type="hidden" name="courtFips" value="029" />
+								      
+							    	       <input type="hidden" name="courtFips" value="530" />
+								      
+							    	       <input type="hidden" name="courtFips" value="031" />
+								      
+							    	       <input type="hidden" name="courtFips" value="033" />
+								      
+							    	       <input type="hidden" name="courtFips" value="035" />
+								      
+							    	       <input type="hidden" name="courtFips" value="036" />
+								      
+							    	       <input type="hidden" name="courtFips" value="037" />
+								      
+							    	       <input type="hidden" name="courtFips" value="540" />
+								      
+							    	       <input type="hidden" name="courtFips" value="550" />
+								      
+							    	       <input type="hidden" name="courtFips" value="041" />
+								      
+							    	       <input type="hidden" name="courtFips" value="043" />
+								      
+							    	       <input type="hidden" name="courtFips" value="570" />
+								      
+							    	       <input type="hidden" name="courtFips" value="045" />
+								      
+							    	       <input type="hidden" name="courtFips" value="047" />
+								      
+							    	       <input type="hidden" name="courtFips" value="049" />
+								      
+							    	       <input type="hidden" name="courtFips" value="590" />
+								      
+							    	       <input type="hidden" name="courtFips" value="051" />
+								      
+							    	       <input type="hidden" name="courtFips" value="053" />
+								      
+							    	       <input type="hidden" name="courtFips" value="595" />
+								      
+							    	       <input type="hidden" name="courtFips" value="057" />
+								      
+							    	       <input type="hidden" name="courtFips" value="600" />
+								      
+							    	       <input type="hidden" name="courtFips" value="059" />
+								      
+							    	       <input type="hidden" name="courtFips" value="610" />
+								      
+							    	       <input type="hidden" name="courtFips" value="061" />
+								      
+							    	       <input type="hidden" name="courtFips" value="063" />
+								      
+							    	       <input type="hidden" name="courtFips" value="065" />
+								      
+							    	       <input type="hidden" name="courtFips" value="620" />
+								      
+							    	       <input type="hidden" name="courtFips" value="067" />
+								      
+							    	       <input type="hidden" name="courtFips" value="069" />
+								      
+							    	       <input type="hidden" name="courtFips" value="630" />
+								      
+							    	       <input type="hidden" name="courtFips" value="640" />
+								      
+							    	       <input type="hidden" name="courtFips" value="071" />
+								      
+							    	       <input type="hidden" name="courtFips" value="073" />
+								      
+							    	       <input type="hidden" name="courtFips" value="075" />
+								      
+							    	       <input type="hidden" name="courtFips" value="077" />
+								      
+							    	       <input type="hidden" name="courtFips" value="079" />
+								      
+							    	       <input type="hidden" name="courtFips" value="081" />
+								      
+							    	       <input type="hidden" name="courtFips" value="083" />
+								      
+							    	       <input type="hidden" name="courtFips" value="650" />
+								      
+							    	       <input type="hidden" name="courtFips" value="085" />
+								      
+							    	       <input type="hidden" name="courtFips" value="165" />
+								      
+							    	       <input type="hidden" name="courtFips" value="087" />
+								      
+							    	       <input type="hidden" name="courtFips" value="089" />
+								      
+							    	       <input type="hidden" name="courtFips" value="091" />
+								      
+							    	       <input type="hidden" name="courtFips" value="670" />
+								      
+							    	       <input type="hidden" name="courtFips" value="093" />
+								      
+							    	       <input type="hidden" name="courtFips" value="099" />
+								      
+							    	       <input type="hidden" name="courtFips" value="101" />
+								      
+							    	       <input type="hidden" name="courtFips" value="097" />
+								      
+							    	       <input type="hidden" name="courtFips" value="103" />
+								      
+							    	       <input type="hidden" name="courtFips" value="105" />
+								      
+							    	       <input type="hidden" name="courtFips" value="163" />
+								      
+							    	       <input type="hidden" name="courtFips" value="107" />
+								      
+							    	       <input type="hidden" name="courtFips" value="109" />
+								      
+							    	       <input type="hidden" name="courtFips" value="111" />
+								      
+							    	       <input type="hidden" name="courtFips" value="680" />
+								      
+							    	       <input type="hidden" name="courtFips" value="113" />
+								      
+							    	       <input type="hidden" name="courtFips" value="690" />
+								      
+							    	       <input type="hidden" name="courtFips" value="115" />
+								      
+							    	       <input type="hidden" name="courtFips" value="117" />
+								      
+							    	       <input type="hidden" name="courtFips" value="119" />
+								      
+							    	       <input type="hidden" name="courtFips" value="122" />
+								      
+							    	       <input type="hidden" name="courtFips" value="121" />
+								      
+							    	       <input type="hidden" name="courtFips" value="125" />
+								      
+							    	       <input type="hidden" name="courtFips" value="127" />
+								      
+							    	       <input type="hidden" name="courtFips" value="703" />
+								      
+							    	       <input type="hidden" name="courtFips" value="701" />
+								      
+							    	       <input type="hidden" name="courtFips" value="702" />
+								      
+							    	       <input type="hidden" name="courtFips" value="710" />
+								      
+							    	       <input type="hidden" name="courtFips" value="711" />
+								      
+							    	       <input type="hidden" name="courtFips" value="712" />
+								      
+							    	       <input type="hidden" name="courtFips" value="713" />
+								      
+							    	       <input type="hidden" name="courtFips" value="131" />
+								      
+							    	       <input type="hidden" name="courtFips" value="133" />
+								      
+							    	       <input type="hidden" name="courtFips" value="135" />
+								      
+							    	       <input type="hidden" name="courtFips" value="137" />
+								      
+							    	       <input type="hidden" name="courtFips" value="139" />
+								      
+							    	       <input type="hidden" name="courtFips" value="141" />
+								      
+							    	       <input type="hidden" name="courtFips" value="730" />
+								      
+							    	       <input type="hidden" name="courtFips" value="143" />
+								      
+							    	       <input type="hidden" name="courtFips" value="740" />
+								      
+							    	       <input type="hidden" name="courtFips" value="145" />
+								      
+							    	       <input type="hidden" name="courtFips" value="147" />
+								      
+							    	       <input type="hidden" name="courtFips" value="149" />
+								      
+							    	       <input type="hidden" name="courtFips" value="153" />
+								      
+							    	       <input type="hidden" name="courtFips" value="155" />
+								      
+							    	       <input type="hidden" name="courtFips" value="750" />
+								      
+							    	       <input type="hidden" name="courtFips" value="157" />
+								      
+							    	       <input type="hidden" name="courtFips" value="159" />
+								      
+							    	       <input type="hidden" name="courtFips" value="760" />
+								      
+							    	       <input type="hidden" name="courtFips" value="763" />
+								      
+							    	       <input type="hidden" name="courtFips" value="761" />
+								      
+							    	       <input type="hidden" name="courtFips" value="762" />
+								      
+							    	       <input type="hidden" name="courtFips" value="764" />
+								      
+							    	       <input type="hidden" name="courtFips" value="770" />
+								      
+							    	       <input type="hidden" name="courtFips" value="161" />
+								      
+							    	       <input type="hidden" name="courtFips" value="167" />
+								      
+							    	       <input type="hidden" name="courtFips" value="775" />
+								      
+							    	       <input type="hidden" name="courtFips" value="169" />
+								      
+							    	       <input type="hidden" name="courtFips" value="171" />
+								      
+							    	       <input type="hidden" name="courtFips" value="173" />
+								      
+							    	       <input type="hidden" name="courtFips" value="175" />
+								      
+							    	       <input type="hidden" name="courtFips" value="177" />
+								      
+							    	       <input type="hidden" name="courtFips" value="179" />
+								      
+							    	       <input type="hidden" name="courtFips" value="790" />
+								      
+							    	       <input type="hidden" name="courtFips" value="800" />
+								      
+							    	       <input type="hidden" name="courtFips" value="181" />
+								      
+							    	       <input type="hidden" name="courtFips" value="183" />
+								      
+							    	       <input type="hidden" name="courtFips" value="185" />
+								      
+							    	       <input type="hidden" name="courtFips" value="810" />
+								      
+							    	       <input type="hidden" name="courtFips" value="187" />
+								      
+							    	       <input type="hidden" name="courtFips" value="191" />
+								      
+							    	       <input type="hidden" name="courtFips" value="820" />
+								      
+							    	       <input type="hidden" name="courtFips" value="193" />
+								      
+							    	       <input type="hidden" name="courtFips" value="830" />
+								      
+							    	       <input type="hidden" name="courtFips" value="840" />
+								      
+							    	       <input type="hidden" name="courtFips" value="195" />
+								      
+							    	       <input type="hidden" name="courtFips" value="197" />
+								      
+							    	       <input type="hidden" name="courtFips" value="199" />
+								      
+							    	   
+							    	 <table cellpadding="0" cellspacing="0">
+						                <tr>
+							    	       <td><input type="text" name="selectedCourtName" id="txtcourts1" value='York General District Court'/></td>
+                                           <td><img src="cjistemp/images/dropdownarrow.jpg" id="btndropdown1" width="20" height="20" /></td>
+							    	    </tr>
+							    	 </table>
+							    	
+							    </td>
+							 </tr>
+							 <tr>
+							 	<td>&nbsp;</td>
+							 </tr>
+					</table>
+				</div>
+				</div>
+				<div class="trafficcriminaltab">
+					<div class="navigationItems ">
+						<ul>
+								<li><span onclick="return checkCourtSelection();"><a name="moduleLink" href="nameSearch.do?fromSidebar=true&formAction=searchLanding&searchDivision=T&searchFipsCode=199&localFipsCode=199"> Name Search</a></span></li>
+								<li><span onclick="return checkCourtSelection();"><a name="moduleLink" href="criminalCivilCaseSearch.do?fromSidebar=true&formAction=searchLanding&searchDivision=T&searchFipsCode=199&curentFipsCode=199">Case Number Search</a></span></li>
+								<li><span onclick="return checkCourtSelection();"><a name="moduleLink" href="caseSearch.do?fromSidebar=true&searchLanding=searchLanding&searchType=hearingDate&searchDivision=T&searchFipsCode=199&curentFipsCode=199">Hearing Date Search</a></span></li>
+								<li><span onclick="return checkCourtSelection();"><a name="moduleLink" href="caseSearch.do?fromSidebar=true&searchLanding=searchLanding&searchType=servicesName&searchDivision=T&searchFipsCode=199&curentFipsCode=199">Service/Process Search</a></span></li>
+			
+						</ul>
+					</div>
+				</div>
+				<div class="civiltab">
+					<div class="navigationItems ">
+						<ul>
+							<li><span onclick="return checkCourtSelection();"><a name="moduleLink" href="nameSearch.do?fromSidebar=true&formAction=searchLanding&searchDivision=V&searchFipsCode=199&localFipsCode=199"> Name Search</a></span></li>
+							<li><span onclick="return checkCourtSelection();"><a name="moduleLink" href="criminalCivilCaseSearch.do?fromSidebar=true&formAction=searchLanding&searchDivision=V&searchFipsCode=199&curentFipsCode=199">Case Number Search</a></span></li>
+							<li><span onclick="return checkCourtSelection();"><a name="moduleLink" href="caseSearch.do?fromSidebar=true&searchLanding=searchLanding&searchType=hearingDate&searchDivision=V&searchFipsCode=199&curentFipsCode=199">Hearing Date Search</a></span></li>
+							<li><span onclick="return checkCourtSelection();"><a name="moduleLink" href="caseSearch.do?fromSidebar=true&searchLanding=searchLanding&searchType=servicesName&searchDivision=V&searchFipsCode=199&curentFipsCode=199">Service/Process Search</a></span></li>
+		                </ul>
+					</div>
+				</div>
+	    	</div>
+	    </td>
+	  </tr>
+	</table>
+</div>
+
+			      			</td>
+			    		
+			      			<td align="left" valign="top" nowrap="nowrap" width="100%" >
+			        			<div class="goldenbar">
+			        				<div style="float:right">
+									
+									 	<div style="display:inline">
+				        				&nbsp;<a href="welcomePage.do?" ><img src="cjistemp/images/home.gif"  width="20" height="20" alt="Home" /></a>&nbsp;
+				        				<img src="cjistemp/images/help.gif"  width="20" height="20" alt="Help" onClick="popitup('help.do');"/>
+				        				</div>
+				        			</div>  
+			        				<div id="headerCourtName" style="text-align:center; vertical-align:middle;">
+			        					York General District Court&nbsp; 
+			        				</div>
+			        			</div>
+			        			<br/>
+			        			
+
+
+
+
+
+
+
+<script type="text/javascript" src="cjistemp/scripts/jquery/jquery.datepicker.js?v=06152022"></script>
+		
+<form name="caseSearchForm" method="post" action="/gdcourts/caseSearch.do">
+ <input type="hidden" name="formAction" value="">
+    <table width="100%">
+		<tr>
+			<td>
+			    
+
+
+
+
+
+<script language="javascript" type="text/javascript" src="cjistemp/scripts/jquery/jquery-ui-1.8.13.custom.min.js?v=06152022"></script>
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table width="100%" border="0" cellpadding="4" cellspacing="2">
+	 <tr>
+	     
+	   	    <td class="pageheader">Traffic/Criminal Search by Hearing Date
+	   	    <input type="hidden" name="curentFipsCode" value="199" id="curentFipsCode"> </td>
+	     
+	     
+	 </tr>
+	 
+	  <tr>
+       <td class="tableback"><table width="100%" border="0" cellpadding="2" cellspacing="2">
+         <tr>
+           <td width="20%" class="label">Hearing Date:<span class="redtext">*</span></td>
+           <td> 
+                <input type="text" name="searchTerm" value="01/20/2022" id="txthearingdate">
+                 <span class="exampleFont">(Example: 12/12/2007)</span>
+           </td>                                                    
+           <td width="20%" class="label">Hearing Time:  </td>                        
+           <td><input type="text" name="searchHearingTime" size="10" value=""><span class="exampleFont">(Example: 0930AM)</span></td>                                                    
+         </tr>
+         <tr>
+           <td class="label">Courtroom:</td>
+           <td><input type="text" name="searchCourtroom" value=""></td>                                                  
+           <td></td>                      
+           <td></td>                       
+         </tr>
+         
+         <tr>
+             <td>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+			       <tr>
+			           <td>&nbsp</td>
+			       </tr>
+			       
+				       <tr>
+				         <td class="label" valign="bottom">Complainant:</td>
+				       </tr>
+			       
+			    </table>
+			</td>
+			
+	           <td colspan="3">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+			       <tr>
+			           <td class="labelLeft" align="left">Last</td>
+			           <td class="labelLeft" align="left">First</td>
+			           <td class="labelLeft" align="left">Middle/Initial</td>
+			           <td class="labelLeft" align="left">Suffix</td>
+			       </tr>
+			       <tr>
+			           <td><input type="text" name="lastName" maxlength="30" size="30" value="" id="txtlastname"></td>
+			           <td><input type="text" name="firstName" maxlength="30" size="30" value="" id="txtfirstname"></td>
+			           <td><input type="text" name="middleName" maxlength="30" size="30" value="" id="txtmiddlename"></td>
+			           <td><input type="text" name="suffix" maxlength="5" size="5" value="" id="txtsuffix"></td>
+			       </tr>
+			    </table>
+			</td>
+		 </tr>
+         <tr>
+           <td class="label">Hearing Type:</td>
+           <td colspan="3">
+               <select name="searchHearingType" onkeydown="return checkSubmit('searchHearingDate');" id="caseNumberBox" class="dateSelect"><option value=""></option>
+					<option value="AA">AA - Appointment of Attorney</option>
+<option value="AC">AC - Arraignment by Clerk</option>
+<option value="AH">AH - Administrative Hearing</option>
+<option value="AJ">AJ - Adjudicatory</option>
+<option value="AR">AR - Arraignment</option>
+<option value="AV">AV - Attorney Review</option>
+<option value="CH">CH - Contested Hearing</option>
+<option value="CV">CV - Civil Hearing</option>
+<option value="BD">BD - Bond</option>
+<option value="DP">DP - Dismissed</option>
+<option value="DS">DS - Disposition</option>
+<option value="DT">DT - Detention</option>
+<option value="EX">EX - Extradition</option>
+<option value="MO">MO - Motion</option>
+<option value="PP">PP - Prepayment</option>
+<option value="PR">PR - Preliminary</option>
+<option value="PT">PT - Pre Trial</option>
+<option value="RG">RG - Review Hearing</option>
+<option value="RH">RH - Re-hearing</option>
+<option value="RO">RO - Re-open</option>
+<option value="RP">RP - Review Progress</option>
+<option value="RV">RV - Revocation</option>
+<option value="ST">ST - Sentencing</option>
+<option value="TR">TR - Transfer</option>
+<option value="WV">WV - Hearing waived</option></select>                                                                                                
+           </td>
+         </tr>
+         <tr>
+	           <td class="label">Unit Number:</td>
+	           <td>
+	               
+	                  <input type="text" name="searchUnitNumber" value="">
+	               
+	               
+	           </td> 
+	           <td class="label">Data Status: </td>                       
+	           <td >
+	           		<span class="redtext floatright">* indicates a required field</span>
+		             <select name="searchCategory" disabled="disabled"><option value="A">Current</option></select>
+	           </td>
+         </tr>
+    
+    
+         
+       </table></td>
+     </tr>
+
+	 <tr>
+	   	  <td class="buttonpanel">
+	   	      <input type="submit" name="caseSearch" value="Search" class="submitBox">
+			  <input type="submit" name="searchLanding" value="Reset" class="submitBox">
+			  <input type="hidden" name="searchFipsCode" value="199">
+	   	  </td>
+	 </tr>
+	 <tr>
+	   	  <td>&nbsp;</td>
+	 </tr>
+	 
+	 	<tr>
+	       	<td class="labelValue">
+		  		Having trouble finding your case?  Refer to our Help icon 
+		  		<img alt="Help" src="cjistemp/images/help.gif" width="20" height="20" />
+		  		 located at the top of this page.
+		  	</td>
+	  	</tr>
+	  	<tr>
+	   		<td>&nbsp;</td>
+	 	</tr>
+	 
+	 
+</table>
+
+
+			</td>
+		</tr>
+	  
+	     
+	    
+		   
+
+
+<tr>
+    <td align="center" nowrap="nowrap">
+        <span class="floatright" >
+                  
+            
+			
+		</span>
+           <input type="submit" class="submitBox disableOnBack" onclick="submitForm('caseDetails');" value="Display Case Details" title="Display Case Details"/>
+	</td>
+</tr>
+  		
+       
+  		<tr>
+  			<td>
+  			    
+  					
+  					    
+				        
+				    
+
+
+
+
+
+
+	
+<table class="tableborder" cellspacing="0" width="100%">
+	<tr>
+         <td width="3%" align="center" class="gridheader">&nbsp;</td>
+         <td width="11%" class="gridheader">Case #</td>
+         <td width="28%" class="gridheader">Defendant </td>
+         <td width="15%" class="gridheader">Complainant </td>
+         <!-- <td width="10%" class="gridheader">Hearing Date </td>  -->
+         <td width="20%" class="gridheader">Charge</td>
+         <td width="10%" class="gridheader">Hearing Time</td>
+         <td width="13%" class="gridheader">Result</td>
+        <!--  <td width="10%" class="gridheader">Action</td>  -->
+    </tr>
+	
+	<input type="hidden" name="unCheckedCases" value="">
+	
+	    
+		
+           
+		   
+			     
+		   
+
+			<tr class="evenRow"> 
+			    <td class="gridrow">
+			        
+			        
+		    	    
+		    	    
+		    	       
+	    	           
+	    	                 <input type="checkbox" onclick="clickCaseCheckbox(this)" name="checkedCases" value="GC20000553-02"/>
+	    	           
+	    	        
+			    </td>
+			   	<td class="gridrow">
+			   		<a href="caseSearch.do?formAction=caseDetails&displayCaseNumber=GC20000553-02&localFipsCode=199&caseActive=true&clientSearchCounter=2025" />
+					   GC20000553-02
+					</a>
+			   	</td>
+				<td class="gridrow">
+					NAYLOR, AMARI ADELLE          
+				</td>
+				<td class="gridrow">
+					COMMONWEALTH OF VIRGINIA      
+				</td>
+				<td class="gridrow">
+					FAIL TO APPEAR-FEL/MISD/SUMONS                    
+				</td>
+				
+				<td class="gridrow" align="center">
+					08:00 AM
+			  	</td>
+			  	<td class="gridrow">
+					
+					Finalized
+				</td>
+			</tr>
+		
+		
+           
+		   
+
+			<tr class="oddRow"> 
+			    <td class="gridrow">
+			        
+			        
+		    	    
+		    	    
+		    	       
+	    	           
+	    	                 <input type="checkbox" onclick="clickCaseCheckbox(this)" name="checkedCases" value="GC21009268-01"/>
+	    	           
+	    	        
+			    </td>
+			   	<td class="gridrow">
+			   		<a href="caseSearch.do?formAction=caseDetails&displayCaseNumber=GC21009268-01&localFipsCode=199&caseActive=true&clientSearchCounter=2025" />
+					   GC21009268-01
+					</a>
+			   	</td>
+				<td class="gridrow">
+					ZEPP, MARY NANNETTE           
+				</td>
+				<td class="gridrow">
+					COMMONWEALTH OF VIRGINIA      
+				</td>
+				<td class="gridrow">
+					CAPIAS VIOL REL/PRETRIAL COND                     
+				</td>
+				
+				<td class="gridrow" align="center">
+					08:00 AM
+			  	</td>
+			  	<td class="gridrow">
+					
+					Continued
+				</td>
+			</tr>
+		
+	
+	
+	
+</table>
+	
+
+  				
+  				 
+			</td>
+		</tr>
+		
+	  
+		   
+
+
+<tr>
+    <td align="center" nowrap="nowrap">
+        <span class="floatright" >
+                  
+            
+			
+		</span>
+           <input type="submit" class="submitBox disableOnBack" onclick="submitForm('caseDetails');" value="Display Case Details" title="Display Case Details"/>
+	</td>
+</tr>
+  		
+       
+	  
+	</table>
+	
+<script type="text/javascript">
+  Datetimefield('#txthearingdate');
+</script>		
+
+</form>
+
+			      			</td>
+			    		</tr>
+			    	</table>
+	</td>
+	</tr>
+	<tr>
+	<td align="center" valign="bottom" nowrap="nowrap">
+	
+<!-- Begin gooter.jsp -->
+
+
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+	    <td class="footer">
+	        <a href="http://www.courts.state.va.us/main.htm" class="breadcrumbtoplinks">Home</a> |
+		    <a href="http://www.courts.state.va.us/courts/home.html" class="breadcrumbtoplinks">Virginia's Court System</a> |
+		    <a href="http://www.courts.state.va.us/online/home.html " class="breadcrumbtoplinks">Online Services</a> |
+		    <a href="http://www.courts.state.va.us/caseinfo/home.html" class="breadcrumbtoplinks">Case Status and Information</a> |
+		    <a href="http://www.courts.state.va.us/courtadmin/home.html " class="breadcrumbtoplinks">Court Administration</a> |
+		    <a href="http://www.courts.state.va.us/directories/home.html" class="breadcrumbtoplinks">Directories</a> |
+		    <a href="http://www.courts.state.va.us/forms/home.html " class="breadcrumbtoplinks">Forms</a> |
+		    <a href="http://www.courts.state.va.us/agencies/home.html " class="breadcrumbtoplinks">Judicial Branch Agencies</a> |
+		    <a href="http://www.courts.state.va.us/programs/home.html " class="breadcrumbtoplinks">Programs</a>
+	    </td>
+	</tr>
+	<tr>
+	    <td class="labelBuildNumber">
+			Build #: 6.1.3.7 
+	    </td>
+	</tr>
+</table>
+<script language="Javascript" type="text/javascript">
+	if (searchCounter >=  sessionStorage.searchCounter || sessionStorage.searchCounter == null) {
+		sessionStorage.searchCounter = searchCounter;
+		$(".disableOnBack").removeAttr("disabled");
+		$("input[type=checkbox]").removeAttr("disabled");
+	} else {
+		disableElements();
+	}
+	
+	function disableElements() {
+		//Any button with the cssClass disableOnBack will be disabled 
+		$(".disableOnBack").attr("disabled", "disabled").attr("title", "Action disabled. Please conduct a new search.");
+		//All checkboxes will be disabled 
+		$("input[type=checkbox]").attr("disabled", "disabled").attr("title", "Action disabled. Please conduct a new search.");
+		//Any link for Mark/Unmark for payment will be disabled 
+		$("a:contains('Mark For Payment')").addClass("disabledLink").attr("onclick", "return false;").attr("title", "Action disabled. Please conduct a new search.");
+		$("a:contains('Unmark For Payment')").addClass("disabledLink").attr("onclick", "return false;").attr("title", "Action disabled. Please conduct a new search.");
+		//Login link is disabled
+		$("a:contains('Log In')").removeClass("popupLink").addClass("disabledLink").removeAttr("href").attr("onclick", "return false;").attr("title", "Action disabled. Please conduct a new search.");
+	}
+</script>
+
+<!-- End footer.jsp -->
+
+
+	</td>
+	</tr>
+	
+	</table>
+	
+		<table align="center" width="100%" style="border:0px">
+			<tr>
+				<td>
+					
+			    </td>
+			 </tr>
+			 <tr>
+      			<td colspan="2" >
+        			
+      			</td>
+    		</tr>
+		</table>
+		<script type="text/javascript">
+		
+		var courtNamesHiddenObjects = document.getElementsByName("courtName");
+        var courtFipsHiddenObjects = document.getElementsByName("courtFips");
+        var courtNames = new Array();
+        var courtFips = new Array();
+           
+        $.browser.chrome = /chrom(e|ium)/.test(navigator.userAgent.toLowerCase()); 
+
+		$(document).ready(function(){
+       	   
+       	   //var arr = new Array("This is the longest name I have ever seen", "Supreme Court of Virginia", "Accomack County Circuit", "Albemarle County Circuit", "Alleghany County Circuit", "Amelia County Circuit", "ruby");
+           
+           for(var i=0; i<courtNamesHiddenObjects.length; i++){
+              courtNames[i] = courtNamesHiddenObjects[i].value;
+              courtFips[i] = courtFipsHiddenObjects[i].value;
+           }
+        
+        
+			$("#txtcourts1").autocomplete({
+		    	source: courtNames,
+		    	focus: function( event, ui ) {
+		    		if(!$.browser.chrome){	// added this if for fixing prod00042600
+		    			$( "#txtcourts1" ).val( ui.item.label );
+		    		}
+		    		return false;
+     			 },
+				close: function(event, ui) {
+				            selectCourt();
+				            $("#txtcourts1").selectRange(0,0);
+				            }
+			});
+
+			$("#txtcourts1").bind("blur",function(){
+				selectCourt();
+	         });
+			
+			
+			$("#btndropdown1").bind("click",function(){
+				
+				if ($("#txtcourts1").autocomplete("widget").is(":visible")) {
+	                  $("#txtcourts1").autocomplete("close");
+	                  return false;
+	               }
+				  else{
+				  		$("#txtcourts1").autocomplete("option","minLength","0");
+						$("#txtcourts1").autocomplete("search","");	  
+					  }
+				   
+				
+			});
+		
+            /*This is the function for hiding the dropdown options when user clicks anywhere in the body*/		
+			$("body").bind('click', function(event){
+	     			if (event.target.id != "btndropdown1")
+	             	{
+						$("#txtcourts1").autocomplete("close");
+	                 
+					}
+	
+			});
+	       	
+	       	$.fn.selectRange = function(start, end) {
+			    var e = document.getElementById($(this).attr('id')); 
+			    if (!e) return;
+			    else if (e.setSelectionRange) { e.focus(); e.setSelectionRange(start, end); }
+			     else if (e.createTextRange) { 
+			    	 var range = e.createTextRange(); 
+			    	 range.collapse(true); 
+			    	 range.moveEnd('character', end);
+			    	 range.moveStart('character', 
+			    			 start); 
+			    	 range.select(); }
+			    else if (e.selectionStart) { e.selectionStart = start; e.selectionEnd = end; }
+			};
+	       	
+	       	 $("#tree").treeview(); 
+	    });
+    	
+    	function selectCourt(){
+    	    
+    	    var courtName = document.getElementById("txtcourts1").value;
+    	    if(courtName.length > 0){
+    	    	courtName = trim(courtName);
+    	    }
+    	    var selectedFips = '';
+    	    //Get fips code for the selected court
+    	    for(var i=0; i<courtNames.length; i++){
+    	       if(courtName == trim(courtNames[i])){
+    	          selectedFips = courtFips[i];    	         
+    	          break;
+    	       }
+    	    }
+    	    if (selectedFips == ''){
+        	    courtName = "";
+    	    }
+    	    
+    	 
+    	  /*   var welcomePageMarker = document.getElementById("welcomePageMarker");
+    	    
+    	    if(welcomePageMarker != null){ //In welcome page who does not have a form
+    	       //Update searchFipsCode in header
+				var headerFipsCodeInput = document.getElementById("headerCourtName");
+				if(headerFipsCodeInput != null){
+					headerFipsCodeInput.innerHTML = courtName;
+				}
+				
+				//Update searchFipsCode parameters on the side bar
+				var moduleLinks = document.getElementsByName("moduleLink");
+				for(var i=0; i<moduleLinks.length; i++){
+					var link = moduleLinks[i];
+					var hrefStr = link.href;
+					
+					//When searchFipsCode parameter value is not set or set to other fips code, 
+					//change it to the selected one.
+					//Here searchFipsCode is always the last parameter.
+					if(hrefStr.indexOf(selectedFips) < 0){
+						var indexOfLastEqualSign = hrefStr.lastIndexOf("=");
+						hrefStr = hrefStr.substring(0, indexOfLastEqualSign + 1);
+						hrefStr = hrefStr + selectedFips;
+						link.href = hrefStr;
+					}
+				}
+    	    } */
+    	   // else{ 
+    	    	//In other pages who have a form
+				//Update searchFipsCode hidden input in form
+				
+				var searchFipsCodeInput = document.getElementsByName("searchFipsCode")[0];
+				if(searchFipsCodeInput != null){
+				   searchFipsCodeInput.value = selectedFips;
+				}
+				
+				document.getElementById('selectedCourtsName').value=courtName;
+				document.getElementById('selectedCourtsFipCode').value=selectedFips;
+				
+				var newFipCode= document.getElementById('selectedCourtsFipCode').value;
+				var oldFipCode= document.getElementById('sessionCourtsFipCode').value;				
+				if( newFipCode != oldFipCode && newFipCode !== null && newFipCode != 'undefined'){
+			//	alert('submitting now '+'selectedFips '+selectedFips + ' courtName '+courtName +" previous fip code " + document.getElementById('sessionCourtsFipCode').value);
+				 document.getElementById("changeCourtForm").submit();
+				}
+			//}
+        }
+    	
+  		</script>
+			
+	</body>
+	<form name="changeCourtForm" id="changeCourtForm" method="post" action="/gdcourts/changeCourt.do">
+	 <input type="hidden" name="selectedCourtsName" id="selectedCourtsName" value="York General District Court"/>
+	 <input type="hidden" name="selectedCourtsFipCode" id="selectedCourtsFipCode" value='199'/>
+	<input type="hidden" name="sessionCourtsFipCode" id="sessionCourtsFipCode" value='199'/>
+
+		
+	</form>
+	<script language="javascript">
+	//On back, if selectedCourtsName value has changed, put back the textbox value in the hidden value
+	if($("#selectedCourtsName").val() != $("#txtcourts1").val()){
+		$("#selectedCourtsName").val($("#txtcourts1").val());
+		$("#selectedCourtsFipCode").val($("#sessionCourtsFipCode").val());
+	}
+	
+	var obj = document.getElementById("curentFipsCode");	
+	if(obj !== null){
+		var formObj=document.getElementById("changeCourtForm");
+		if(formObj !== null){
+			obj.value= formObj.elements["sessionCourtsFipCode"].value;
+		}
+	}
+
+</script>	    
+		
+</html>
+
